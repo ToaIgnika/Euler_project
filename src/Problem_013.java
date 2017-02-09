@@ -19,7 +19,7 @@ public class Problem_013 {
      */
     public static void main(String arg[]) throws IOException {
         // copy file into String array
-        String location = "bin/Problem_013.txt";
+        String location = "problemFiles/Problem_013.txt";
         Scanner scan = new Scanner(new File(location));
         String[] list = new String[100];
         for (int i = 0; i < 100; i++) {
@@ -51,7 +51,6 @@ public class Problem_013 {
         }
         
         // print the result
-        System.out.println("=====");
         System.out.println(result);
      }
 }

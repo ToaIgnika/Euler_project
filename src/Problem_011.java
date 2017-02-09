@@ -14,7 +14,7 @@ public class Problem_011 {
     public static void main(String str[]) throws IOException {
        
         // copy the list from the file into 
-        String location = "bin/Problem_011.txt";
+        String location = "problemFiles/Problem_011.txt";
         Scanner scan = new Scanner(new File(location));
         int[][] newList = new int[20][20];
         for (int s = 0; s < 20; s++)
