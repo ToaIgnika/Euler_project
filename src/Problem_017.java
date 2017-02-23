@@ -1,5 +1,14 @@
 import java.util.Scanner;
-
+/**
+ * Program finds letter number of all given numbers
+ * from 1 to (user input).
+ * 
+ * @author Yevhen
+ * @version
+ * "I made this code longer than usual 
+ * because I lack time to make it short"
+ *
+ */
 
 public class Problem_017 {
 
