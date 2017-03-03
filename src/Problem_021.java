@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- * Sum of all amucable numbers below (user input).
+ * Sum of all amicable numbers below (user input).
  * @author Yevhen
  * @version 2.26.17
  * "I made this code longer than usual 
@@ -43,7 +43,7 @@ public class Problem_021 {
         return false;
         }
     }
-    
+    // variable for sacanner.
     private static Scanner scan;
     
     /**

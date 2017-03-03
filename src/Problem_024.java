@@ -1,5 +1,16 @@
 import java.util.ArrayList;
 
+/**
+ * Problem_024.
+ *
+ * Program finds the millionth lexicographic
+ * permutation of the digits 0, 1, 2, 3, 4, 5, 6, 7, 8 and 9
+ * @author Yevhen
+ * @version
+ * "I made this code longer than usual 
+ * because I lack time to make it short"
+ *
+ */
 public class Problem_024 {
 
     static ArrayList<String> holder = new ArrayList<String>();
@@ -37,6 +48,5 @@ public class Problem_024 {
         System.out.println(holder.get(999998));
         System.out.println(holder.get(999999));
         System.out.println(holder.get(1000000));
-        // perm2(elements);
     }
 }

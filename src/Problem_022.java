@@ -18,6 +18,7 @@ import java.util.Scanner;
 public class Problem_022 {
 
     public static void main(String[] args) throws IOException {
+        // create an array to write down all the names from the list
         ArrayList<String> holder = new ArrayList<String>();
         String location = "problemFiles/Problem_022.txt";
         File fileLoc = new File(location);
@@ -30,7 +31,11 @@ public class Problem_022 {
             temp = scan.next().replace("\"", "");
             holder.add(temp);
         }
+        
+        // cheat and sort the name list by alphabet.
         Collections.sort(holder);
+        
+        // calculate the all name scores.
         for (int i = 0; i < holder.size(); i++) {
             String temp2 = holder.get(i);
             wordSumValue = 0;

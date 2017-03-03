@@ -21,6 +21,7 @@ public class Problem_067 {
         //read the table from the file into 2D array
         String location = "problemFiles/Problem_067.txt";
         File fileLoc = new File(location);
+        @SuppressWarnings("resource")
         Scanner scan = new Scanner(fileLoc);
         int[][] bigList = new int[100][100];
         for (int i = 0; i < 100; i++) {

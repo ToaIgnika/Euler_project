@@ -9,8 +9,15 @@
  *
  */
 public class Problem_019 {
-    
-    public static int sundayFirst = 0;
+    // declare variable for sunday count.
+    private static int sundayFirst = 0;
+
+    /**
+     * Checks if the given month and start day has sunday as a 1st.
+     * @param daysThisMonth .
+     * @param currentDayOfWeek.
+     * @return current day of the week as int.
+     */
     private static int MondayCounter(int daysThisMonth, 
             int currentDayOfWeek) {
         for (int dayOfMonth = 1; dayOfMonth <= daysThisMonth; dayOfMonth++) {
@@ -37,7 +44,9 @@ public class Problem_019 {
      * Oct 31
      * Nov 30
      * Dec 31
-     * @param args
+     *
+     * Drives the program.
+     * @param args command line arguments.
      */
     public static void main(String[] args) {
         int startYear = 1900;
