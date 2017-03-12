@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 /**
@@ -37,6 +38,8 @@ public class Problem_012 {
         return ((divCounter - 1) * 2);
     }
     
+    private static Scanner scan;
+    
     /**
      * Drives the program.
      * @param arg command line arguments.
@@ -44,7 +47,7 @@ public class Problem_012 {
     public static void main(String arg[]) {
         
         // variables declaration and users input
-        Scanner scan = new Scanner(System.in);
+        scan = new Scanner(System.in);
         long userInput = scan.nextLong();
         long answer = 0;
         double victimInt = 0;

@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 /**
@@ -26,10 +27,12 @@ public class Problem_005 {
         return 1;
     }
     
+    private static Scanner scan;
+    
     public static void main(String arg[])
     {
         // initialize variables
-        Scanner scan = new Scanner(System.in);
+        scan = new Scanner(System.in);
         int userNum = scan.nextInt();
         int answer = 0;
         int counter = 1;

@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 /**
@@ -27,6 +28,8 @@ public class Problem_010 {
         return 1;
     }
     
+    private static Scanner scan;
+    
     /**
      * Drives the program.
      * @param arg command line arguments.
@@ -35,7 +38,7 @@ public class Problem_010 {
         //declare variables
         long sum = 0;
         int incrementor = 1;
-        Scanner scan = new Scanner(System.in);
+        scan = new Scanner(System.in);
         double userNum = scan.nextDouble();
         double worker = 2;
         while (worker < userNum) {

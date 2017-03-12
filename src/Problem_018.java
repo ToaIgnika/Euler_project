@@ -1,9 +1,4 @@
-/**
- * Problem_018.
- * Program reads a pyramid of numbers from the file
- * and computes the largest sum of adjacent sum.
- * File needs manual adjustments for the size of the pyramid.
- */
+
 
 import java.io.File;
 import java.util.Scanner;
@@ -11,6 +6,7 @@ import java.io.IOException;
 
 public class Problem_018 {
     
+    private static Scanner scan;
     /**
      * Drives the program.
      * @param args
@@ -20,7 +16,7 @@ public class Problem_018 {
         // read the pyramid from the file into 2D array.
         String location = "problemFiles/Problem_018.txt";
         File fileLoc = new File(location);
-        Scanner scan = new Scanner(fileLoc);
+        scan = new Scanner(fileLoc);
         int[][] bigList = new int[15][15];
         for (int i = 0; i < 15; i++) {
             for (int z = 0; z <= i; z++) {

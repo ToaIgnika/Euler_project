@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 /**
@@ -9,6 +10,8 @@ import java.util.Scanner;
  */
 public class Problem_006 {
     
+    private static Scanner scan;
+    
     /**
      * Drives the program.
      * @param arg command line arguments.
@@ -19,7 +22,7 @@ public class Problem_006 {
         long sumOfSquares = 0;
         long squareOfSum = 0;
         long finalDiff;
-        Scanner scan = new Scanner(System.in);
+        scan = new Scanner(System.in);
         int userInt = scan.nextInt();
         
         // calculate the sum of squares

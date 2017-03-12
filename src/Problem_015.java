@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 /**
@@ -8,6 +9,7 @@ import java.util.Scanner;
  */
 public class Problem_015 {
     
+    private static Scanner scan;
     /**
      * Drives the program.
      * @param args command line arguments
@@ -15,11 +17,11 @@ public class Problem_015 {
      */
     public static void main(String args[])
     {
-        Scanner scan = new Scanner(System.in);
+        scan = new Scanner(System.in);
         int userInput = scan.nextInt();
         //int userY = scan.nextInt(); // for any grid size modification
         double result = 1;
-        double upNum = userInput + userInput; // (a+b)!
+        //double upNum = userInput + userInput; // (a+b)!
         for (double i = 1; i <= userInput; i ++)
         {
             result = result * (i + userInput) / i; 

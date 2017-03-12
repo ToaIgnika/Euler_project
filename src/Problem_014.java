@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 /**
@@ -30,6 +31,8 @@ public class Problem_014 {
         return counter;
     }
     
+    private static Scanner scan;
+    
     /**
      * Drives the program.
      * @param args command line arguments.
@@ -37,7 +40,7 @@ public class Problem_014 {
     public static void main(String args[])
     {
         // variable declaration and users input
-        Scanner scan = new Scanner(System.in);
+        scan = new Scanner(System.in);
         int userInt = scan.nextInt();
         int biggestChain = 0;
         int biggestNum = 0;

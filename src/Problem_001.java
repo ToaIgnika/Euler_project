@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 /**
@@ -19,6 +20,7 @@ public class Problem_001 {
      */
     public static final int FIVE = 5;
     
+    private static Scanner scan;
     /**
      * Drives program.
      * 
@@ -26,7 +28,7 @@ public class Problem_001 {
      */
     public static void main(String arg[]) {
         // declare variables and user input
-        Scanner scan = new Scanner(System.in);
+        scan = new Scanner(System.in);
         final int max_multiply = scan.nextInt();
         int sum = 0;
         int tempInt = 0;

@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 /**
@@ -7,6 +8,8 @@ import java.util.Scanner;
  *
  */
 public class Problem_003 {
+    
+    private static Scanner scan;
     
     /**
      * function checks if the number is prime.
@@ -31,7 +34,7 @@ public class Problem_003 {
      * @param arg command line arguments.
      */
     public static void main(String arg[]){
-        Scanner scan = new Scanner(System.in);
+        scan = new Scanner(System.in);
         final long userNum = scan.nextLong();
         long divLeft = 1;
         long divRight = userNum;

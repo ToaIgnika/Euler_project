@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 /**
  * Program finds letter number of all given numbers
@@ -59,8 +60,7 @@ public class Problem_017 {
      */
     private static String converter(int x) {
         String answer = "";
-        String temp = "" + x;
-              
+                     
         // string number generator
         if (x % 1000 == 0) {
             answer = tens[x/1000] + tens[20];

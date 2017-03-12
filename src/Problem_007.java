@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 /**9
@@ -25,6 +26,8 @@ public class Problem_007 {
         return 1;
     }
 
+    private static Scanner scan;
+    
     /**
      * Drives the program.
      * @param arg command line arguments
@@ -32,7 +35,7 @@ public class Problem_007 {
     public static void main(String arg[])
     {
         // variables and user input
-        Scanner scan = new Scanner(System.in);
+        scan = new Scanner(System.in);
         System.out.println("Enter # (starting from 7): ");
         int primeId = scan.nextInt();
         int counter = 6;

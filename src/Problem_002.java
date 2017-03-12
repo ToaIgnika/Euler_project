@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 /** 
@@ -8,13 +9,16 @@ import java.util.Scanner;
  *
  */
 public class Problem_002 {
+    
+    private static Scanner scan;
+    
     /**
      * Drives the program.
      * @param arg command line arguments.
      */
     public static void main(String arg[]){
         // declaration of variables and user input
-        Scanner scan = new Scanner (System.in);
+        scan = new Scanner (System.in);
         final int limitNum = scan.nextInt();
         int fibThis = 1;
         int fibNext = 2;
